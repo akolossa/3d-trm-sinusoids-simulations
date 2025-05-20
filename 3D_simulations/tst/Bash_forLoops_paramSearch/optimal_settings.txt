@@ -1,0 +1,13 @@
+20 12 1350 28 2 6.63799749374022 False 49
+20 12 1400 24 2 13.858003453623587 False 49
+20 12 1400 28 2 7.012999368572963 False 49
+20 12 1500 32 2 5.434449452530929 False 49
+
+In previous sim $max_act $lambda_act $adh were changed.
+$temperature = 20 #NOT CHANGED
+$max_act = 12 #CHANGED
+$lambda_act = 1350-1500 #changed
+$adh 24-32 = #changed
+$lambda_p = 2 #not changed
+
+ 

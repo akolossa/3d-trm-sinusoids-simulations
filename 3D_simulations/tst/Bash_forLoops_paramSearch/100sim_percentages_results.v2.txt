@@ -1,0 +1,371 @@
+Parameters: 5 20 1150 20 17
+Percentage of lines that are false and have 49 iterations: 43.00%
+----
+# lines of 43.00% with displacement between 5 and 30 (excl): 0
+# lines of 43.00% with displacement below 5 (incl): 37
+# lines of 43.00% with displacement above 30 (incl): 6
+----------
+Parameters: 5 24 1350 30 17
+Percentage of lines that are false and have 49 iterations: 52.00%
+----
+# lines of 52.00% with displacement between 5 and 30 (excl): 0
+# lines of 52.00% with displacement below 5 (incl): 48
+# lines of 52.00% with displacement above 30 (incl): 4
+----------
+Parameters: 5 24 1400 10 14
+Percentage of lines that are false and have 49 iterations: 29.00%
+----
+# lines of 29.00% with displacement between 5 and 30 (excl): 0
+# lines of 29.00% with displacement below 5 (incl): 23
+# lines of 29.00% with displacement above 30 (incl): 6
+----------
+Parameters: 5 24 1700 40 20
+Percentage of lines that are false and have 49 iterations: 42.00%
+----
+# lines of 42.00% with displacement between 5 and 30 (excl): 0
+# lines of 42.00% with displacement below 5 (incl): 40
+# lines of 42.00% with displacement above 30 (incl): 2
+----------
+Parameters: 5 26 1000 5 19
+Percentage of lines that are false and have 49 iterations: 29.00%
+----
+# lines of 29.00% with displacement between 5 and 30 (excl): 0
+# lines of 29.00% with displacement below 5 (incl): 21
+# lines of 29.00% with displacement above 30 (incl): 8
+----------
+Parameters: 5 26 1900 30 13
+Percentage of lines that are false and have 49 iterations: 42.00%
+----
+# lines of 42.00% with displacement between 5 and 30 (excl): 0
+# lines of 42.00% with displacement below 5 (incl): 39
+# lines of 42.00% with displacement above 30 (incl): 3
+----------
+Parameters: 5 42 1300 35 10
+Percentage of lines that are false and have 49 iterations: 50.00%
+----
+# lines of 50.00% with displacement between 5 and 30 (excl): 6
+# lines of 50.00% with displacement below 5 (incl): 41
+# lines of 50.00% with displacement above 30 (incl): 3
+----------
+Parameters: 10 16 1100 10 16
+Percentage of lines that are false and have 49 iterations: 24.00%
+----
+# lines of 24.00% with displacement between 5 and 30 (excl): 6
+# lines of 24.00% with displacement below 5 (incl): 8
+# lines of 24.00% with displacement above 30 (incl): 10
+----------
+Parameters: 10 18 1200 25 15
+Percentage of lines that are false and have 49 iterations: 21.00%
+----
+# lines of 21.00% with displacement between 5 and 30 (excl): 2
+# lines of 21.00% with displacement below 5 (incl): 14
+# lines of 21.00% with displacement above 30 (incl): 5
+----------
+Parameters: 10 20 1950 10 19
+Percentage of lines that are false and have 49 iterations: 6.00%
+----
+# lines of 6.00% with displacement between 5 and 30 (excl): 0
+# lines of 6.00% with displacement below 5 (incl): 2
+# lines of 6.00% with displacement above 30 (incl): 4
+----------
+Parameters: 10 22 1050 35 13
+Percentage of lines that are false and have 49 iterations: 41.00%
+----
+# lines of 41.00% with displacement between 5 and 30 (excl): 4
+# lines of 41.00% with displacement below 5 (incl): 33
+# lines of 41.00% with displacement above 30 (incl): 4
+----------
+Parameters: 10 22 1100 30 14
+Percentage of lines that are false and have 49 iterations: 23.00%
+----
+# lines of 23.00% with displacement between 5 and 30 (excl): 6
+# lines of 23.00% with displacement below 5 (incl): 8
+# lines of 23.00% with displacement above 30 (incl): 9
+----------
+Parameters: 10 22 1150 30 17
+Percentage of lines that are false and have 49 iterations: 32.00%
+----
+# lines of 32.00% with displacement between 5 and 30 (excl): 7
+# lines of 32.00% with displacement below 5 (incl): 14
+# lines of 32.00% with displacement above 30 (incl): 11
+----------
+Parameters: 10 22 1250 40 12
+Percentage of lines that are false and have 49 iterations: 59.00%
+----
+# lines of 59.00% with displacement between 5 and 30 (excl): 3
+# lines of 59.00% with displacement below 5 (incl): 53
+# lines of 59.00% with displacement above 30 (incl): 3
+----------
+Parameters: 10 22 1450 30 19
+Percentage of lines that are false and have 49 iterations: 15.00%
+----
+# lines of 15.00% with displacement between 5 and 30 (excl): 3
+# lines of 15.00% with displacement below 5 (incl): 3
+# lines of 15.00% with displacement above 30 (incl): 9
+----------
+Parameters: 10 30 1350 5 19
+Percentage of lines that are false and have 49 iterations: 13.00%
+----
+# lines of 13.00% with displacement between 5 and 30 (excl): 0
+# lines of 13.00% with displacement below 5 (incl): 0
+# lines of 13.00% with displacement above 30 (incl): 13
+----------
+Parameters: 10 32 1400 15 18
+Percentage of lines that are false and have 49 iterations: 4.00%
+----
+# lines of 4.00% with displacement between 5 and 30 (excl): 1
+# lines of 4.00% with displacement below 5 (incl): 0
+# lines of 4.00% with displacement above 30 (incl): 3
+----------
+Parameters: 10 34 1900 40 19
+Percentage of lines that are false and have 49 iterations: 12.00%
+----
+# lines of 12.00% with displacement between 5 and 30 (excl): 5
+# lines of 12.00% with displacement below 5 (incl): 3
+# lines of 12.00% with displacement above 30 (incl): 4
+----------
+Parameters: 10 34 1950 30 11
+Percentage of lines that are false and have 49 iterations: 16.00%
+----
+# lines of 16.00% with displacement between 5 and 30 (excl): 5
+# lines of 16.00% with displacement below 5 (incl): 4
+# lines of 16.00% with displacement above 30 (incl): 7
+----------
+Parameters: 10 34 2000 25 18
+Percentage of lines that are false and have 49 iterations: 6.00%
+----
+# lines of 6.00% with displacement between 5 and 30 (excl): 1
+# lines of 6.00% with displacement below 5 (incl): 0
+# lines of 6.00% with displacement above 30 (incl): 5
+----------
+Parameters: 10 36 1150 25 16
+Percentage of lines that are false and have 49 iterations: 12.00%
+----
+# lines of 12.00% with displacement between 5 and 30 (excl): 2
+# lines of 12.00% with displacement below 5 (incl): 0
+# lines of 12.00% with displacement above 30 (incl): 10
+----------
+Parameters: 10 36 1300 15 16
+Percentage of lines that are false and have 49 iterations: 8.00%
+----
+# lines of 8.00% with displacement between 5 and 30 (excl): 2
+# lines of 8.00% with displacement below 5 (incl): 0
+# lines of 8.00% with displacement above 30 (incl): 6
+----------
+Parameters: 10 36 1750 20 12
+Percentage of lines that are false and have 49 iterations: 9.00%
+----
+# lines of 9.00% with displacement between 5 and 30 (excl): 1
+# lines of 9.00% with displacement below 5 (incl): 0
+# lines of 9.00% with displacement above 30 (incl): 8
+----------
+Parameters: 10 36 2000 40 14
+Percentage of lines that are false and have 49 iterations: 25.00%
+----
+# lines of 25.00% with displacement between 5 and 30 (excl): 4
+# lines of 25.00% with displacement below 5 (incl): 17
+# lines of 25.00% with displacement above 30 (incl): 4
+----------
+Parameters: 10 38 1300 45 17
+Percentage of lines that are false and have 49 iterations: 24.00%
+----
+# lines of 24.00% with displacement between 5 and 30 (excl): 13
+# lines of 24.00% with displacement below 5 (incl): 9
+# lines of 24.00% with displacement above 30 (incl): 2
+----------
+Parameters: 10 38 1850 30 12
+Percentage of lines that are false and have 49 iterations: 11.00%
+----
+# lines of 11.00% with displacement between 5 and 30 (excl): 3
+# lines of 11.00% with displacement below 5 (incl): 0
+# lines of 11.00% with displacement above 30 (incl): 8
+----------
+Parameters: 10 40 1050 45 17
+Percentage of lines that are false and have 49 iterations: 22.00%
+----
+# lines of 22.00% with displacement between 5 and 30 (excl): 11
+# lines of 22.00% with displacement below 5 (incl): 11
+# lines of 22.00% with displacement above 30 (incl): 0
+----------
+Parameters: 10 40 1350 35 16
+Percentage of lines that are false and have 49 iterations: 12.00%
+----
+# lines of 12.00% with displacement between 5 and 30 (excl): 6
+# lines of 12.00% with displacement below 5 (incl): 1
+# lines of 12.00% with displacement above 30 (incl): 5
+----------
+Parameters: 10 40 1450 35 18
+Percentage of lines that are false and have 49 iterations: 8.00%
+----
+# lines of 8.00% with displacement between 5 and 30 (excl): 4
+# lines of 8.00% with displacement below 5 (incl): 2
+# lines of 8.00% with displacement above 30 (incl): 2
+----------
+Parameters: 10 42 1250 15 14
+Percentage of lines that are false and have 49 iterations: 12.00%
+----
+# lines of 12.00% with displacement between 5 and 30 (excl): 2
+# lines of 12.00% with displacement below 5 (incl): 0
+# lines of 12.00% with displacement above 30 (incl): 10
+----------
+Parameters: 10 42 1550 5 17
+Percentage of lines that are false and have 49 iterations: 7.00%
+----
+# lines of 7.00% with displacement between 5 and 30 (excl): 0
+# lines of 7.00% with displacement below 5 (incl): 0
+# lines of 7.00% with displacement above 30 (incl): 7
+----------
+Parameters: 10 42 1600 5 20
+Percentage of lines that are false and have 49 iterations: 5.00%
+----
+# lines of 5.00% with displacement between 5 and 30 (excl): 0
+# lines of 5.00% with displacement below 5 (incl): 0
+# lines of 5.00% with displacement above 30 (incl): 5
+----------
+Parameters: 10 42 1850 25 17
+Percentage of lines that are false and have 49 iterations: 14.00%
+----
+# lines of 14.00% with displacement between 5 and 30 (excl): 1
+# lines of 14.00% with displacement below 5 (incl): 0
+# lines of 14.00% with displacement above 30 (incl): 13
+----------
+Parameters: 10 42 1950 20 18
+Percentage of lines that are false and have 49 iterations: 15.00%
+----
+# lines of 15.00% with displacement between 5 and 30 (excl): 3
+# lines of 15.00% with displacement below 5 (incl): 0
+# lines of 15.00% with displacement above 30 (incl): 12
+----------
+Parameters: 10 44 1000 35 14
+Percentage of lines that are false and have 49 iterations: 23.00%
+----
+# lines of 23.00% with displacement between 5 and 30 (excl): 23
+# lines of 23.00% with displacement below 5 (incl): 0
+# lines of 23.00% with displacement above 30 (incl): 0
+----------
+Parameters: 10 44 1000 35 20
+Percentage of lines that are false and have 49 iterations: 23.00%
+----
+# lines of 23.00% with displacement between 5 and 30 (excl): 23
+# lines of 23.00% with displacement below 5 (incl): 0
+# lines of 23.00% with displacement above 30 (incl): 0
+----------
+Parameters: 10 44 1200 20 18
+Percentage of lines that are false and have 49 iterations: 9.00%
+----
+# lines of 9.00% with displacement between 5 and 30 (excl): 8
+# lines of 9.00% with displacement below 5 (incl): 0
+# lines of 9.00% with displacement above 30 (incl): 1
+----------
+Parameters: 10 44 1200 30 16
+Percentage of lines that are false and have 49 iterations: 20.00%
+----
+# lines of 20.00% with displacement between 5 and 30 (excl): 18
+# lines of 20.00% with displacement below 5 (incl): 0
+# lines of 20.00% with displacement above 30 (incl): 2
+----------
+Parameters: 10 44 1350 35 14
+Percentage of lines that are false and have 49 iterations: 14.00%
+----
+# lines of 14.00% with displacement between 5 and 30 (excl): 12
+# lines of 14.00% with displacement below 5 (incl): 0
+# lines of 14.00% with displacement above 30 (incl): 2
+----------
+Parameters: 15 14 1400 35 14
+Percentage of lines that are false and have 49 iterations: 48.00%
+----
+# lines of 48.00% with displacement between 5 and 30 (excl): 6
+# lines of 48.00% with displacement below 5 (incl): 39
+# lines of 48.00% with displacement above 30 (incl): 3
+----------
+Parameters: 15 16 1150 35 20
+Percentage of lines that are false and have 49 iterations: 39.00%
+----
+# lines of 39.00% with displacement between 5 and 30 (excl): 7
+# lines of 39.00% with displacement below 5 (incl): 29
+# lines of 39.00% with displacement above 30 (incl): 3
+----------
+Parameters: 15 16 1350 30 14
+Percentage of lines that are false and have 49 iterations: 21.00%
+----
+# lines of 21.00% with displacement between 5 and 30 (excl): 3
+# lines of 21.00% with displacement below 5 (incl): 2
+# lines of 21.00% with displacement above 30 (incl): 16
+----------
+Parameters: 15 18 1000 20 20
+Percentage of lines that are false and have 49 iterations: 14.00%
+----
+# lines of 14.00% with displacement between 5 and 30 (excl): 5
+# lines of 14.00% with displacement below 5 (incl): 0
+# lines of 14.00% with displacement above 30 (incl): 9
+----------
+Parameters: 15 18 1000 25 19
+Percentage of lines that are false and have 49 iterations: 32.00%
+----
+# lines of 32.00% with displacement between 5 and 30 (excl): 9
+# lines of 32.00% with displacement below 5 (incl): 3
+# lines of 32.00% with displacement above 30 (incl): 20
+----------
+Parameters: 15 18 1250 25 17
+Percentage of lines that are false and have 49 iterations: 20.00%
+----
+# lines of 20.00% with displacement between 5 and 30 (excl): 5
+# lines of 20.00% with displacement below 5 (incl): 0
+# lines of 20.00% with displacement above 30 (incl): 15
+----------
+Parameters: 15 18 1350 45 13
+Percentage of lines that are false and have 49 iterations: 69.00%
+----
+# lines of 69.00% with displacement between 5 and 30 (excl): 2
+# lines of 69.00% with displacement below 5 (incl): 59
+# lines of 69.00% with displacement above 30 (incl): 8
+----------
+Parameters: 15 18 1400 5 20
+Percentage of lines that are false and have 49 iterations: 8.00%
+----
+# lines of 8.00% with displacement between 5 and 30 (excl): 0
+# lines of 8.00% with displacement below 5 (incl): 0
+# lines of 8.00% with displacement above 30 (incl): 8
+----------
+Parameters: 15 18 1900 45 15
+Percentage of lines that are false and have 49 iterations: 42.00%
+----
+# lines of 42.00% with displacement between 5 and 30 (excl): 1
+# lines of 42.00% with displacement below 5 (incl): 35
+# lines of 42.00% with displacement above 30 (incl): 6
+----------
+Parameters: 15 20 1150 35 18
+Percentage of lines that are false and have 49 iterations: 28.00%
+----
+# lines of 28.00% with displacement between 5 and 30 (excl): 5
+# lines of 28.00% with displacement below 5 (incl): 7
+# lines of 28.00% with displacement above 30 (incl): 16
+----------
+Parameters: 15 20 1200 30 14
+Percentage of lines that are false and have 49 iterations: 12.00%
+----
+# lines of 12.00% with displacement between 5 and 30 (excl): 0
+# lines of 12.00% with displacement below 5 (incl): 0
+# lines of 12.00% with displacement above 30 (incl): 12
+----------
+Parameters: 15 20 1450 45 20
+Percentage of lines that are false and have 49 iterations: 28.00%
+----
+# lines of 28.00% with displacement between 5 and 30 (excl): 9
+# lines of 28.00% with displacement below 5 (incl): 13
+# lines of 28.00% with displacement above 30 (incl): 6
+----------
+Parameters: 15 22 1050 40 15
+Percentage of lines that are false and have 49 iterations: 41.00%
+----
+# lines of 41.00% with displacement between 5 and 30 (excl): 11
+# lines of 41.00% with displacement below 5 (incl): 23
+# lines of 41.00% with displacement above 30 (incl): 7
+----------
+Parameters: 15 22 1100 40 19
+Percentage of lines that are false and have 49 iterations: 33.00%
+----
+# lines of 33.00% with displacement between 5 and 30 (excl): 16
+# lines of 33.00% with displacement below 5 (incl): 7
+# lines of 33.00% with displacement above 30 (incl): 10
+----------

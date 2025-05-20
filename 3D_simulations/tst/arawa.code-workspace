@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "arawa",
+			"path": ".."
+		},
+		{
+			"name": "tst",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

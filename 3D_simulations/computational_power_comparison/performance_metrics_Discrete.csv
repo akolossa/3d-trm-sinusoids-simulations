@@ -1,0 +1,6 @@
+Metric,Value
+NumCells,8
+GridSize,128
+TotalSteps,1000
+FinalCoverage,0.260305
+AvgMSD,9.70025

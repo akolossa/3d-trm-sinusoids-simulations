@@ -1,0 +1,5 @@
+Iteration 1: Best parameters: [33, 959, 79, 50, 14, 9], Best score: 16010
+Iteration 2: Best parameters: [33, 959, 79, 50, 14, 9], Best score: 16010
+Iteration 3: Best parameters: [33, 959, 79, 50, 14, 9], Best score: 16010
+Iteration 4: Best parameters: [33, 959, 79, 50, 14, 9], Best score: 16010
+Iteration 5: Best parameters: [33, 959, 79, 50, 14, 9], Best score: 16010

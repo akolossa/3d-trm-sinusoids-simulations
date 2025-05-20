@@ -1,0 +1,7 @@
+Parameters: 33 959 79 50 14 9
+Percentage of lines that are false and have 49 iterations: 63.00%
+----
+# lines of 63.00% with displacement between 5 and 30 (excl): 63
+# lines of 63.00% with displacement below 5 (incl): 0
+# lines of 63.00% with displacement above 30 (incl): 0
+----------
