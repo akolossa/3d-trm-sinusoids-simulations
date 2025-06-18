@@ -1,4 +1,4 @@
-````markdown
+
 # 3D Cell Simulations in the Liver
 
 This repository contains code and resources developed for my thesis on **3D Cell Simulations in the Liver**. The focus is on liver sinusoid segmentation, structure processing, and Cellular Potts Model (CPM) simulations of cell movement within liver sinusoids. The project integrates deep learning segmentation pipelines with GPU-accelerated CPM simulations.
