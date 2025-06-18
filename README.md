@@ -1,116 +1,94 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Liver 3D Simulations
-=======
-# 3d-simulations-sinusoids
->>>>>>> 0086bc308dd26ff1292067eb4ad28f5dddc631ad
-=======
-# 3d-simulations-liver
->>>>>>> 0054aa1ed6ee9fff3da81f5785730104b499443d
+# 3D Cell Simulations in the Liver
 
+This repository contains the code and resources for my thesis on **3D Cell Simulations in the Liver**, focusing on liver sinusoid segmentation, structure processing, and cellular Potts model (CPM) simulations. The project leverages deep learning for segmentation and GPU-accelerated simulations to study cell movement and interactions within liver sinusoids.
 
+## Repository Structure
 
-## Getting started
+- **3D_simulations**: Contains code for running 3D CPM simulations, including:
+  - Parameter optimization (grid search and Bayesian methods)
+  - Cell movement analysis and comparison with Fernandez-Ruiz et al. (2016) model
+  - Coverage time modeling and power-law analysis
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+- **Expansion_sinusoids**: Tools for processing sinusoidal structures:
+  - Diameter adjustment (7-15 µm range)
+  - Skeletonization and path extrusion
+  - Connected component analysis
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+- **Segmentation_sinusoids**: 3D U-Net-based segmentation pipeline:
+  - Data preparation and augmentation
+  - Model training and inference
+  - Post-processing (stitching, skeletonization)
 
-## Add your files
+## Key Features
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+### Sinusoid Segmentation
+- **3D U-Net architecture** with encoder-decoder structure (64-1024 channels)
+- **Data augmentation**:
+  - Standard: flips, brightness adjustments, Gaussian noise
+  - Enhanced: orientation-selective filtering (Ishikawa et al. 2013)
+- **Training**: 300 epochs, AdamW optimizer, BCE loss
+- **Post-processing**: Skeletonization, junction detection, volumetric extrusion
 
-```
-cd existing_repo
-<<<<<<< HEAD
-<<<<<<< HEAD
-git remote add origin https://gitlab.computational-immunology.org/Arawa/liver-3d-simulations.git
-=======
-git remote add origin https://gitlab.computational-immunology.org/Arawa/3d-simulations-sinusoids.git
->>>>>>> 0086bc308dd26ff1292067eb4ad28f5dddc631ad
-=======
-git remote add origin https://gitlab.computational-immunology.org/Arawa/3d-simulations-liver.git
->>>>>>> 0054aa1ed6ee9fff3da81f5785730104b499443d
-git branch -M main
-git push -uf origin main
-```
+### CPM Simulations
+- **Parameter optimization**:
+  - Grid search over 5 parameters (temperature, actin activity, etc.)
+  - Bayesian optimization with Gaussian processes
+- **Cell movement analysis**:
+  - Volume exploration metrics
+  - Velocity and arrest coefficients
+- **Comparison** with Fernandez-Ruiz et al. linear model
 
-## Integrate with your tools
+## Hardware Requirements
+- **GPUs**: 4× NVIDIA RTX 2080 Ti (11GB GDDR6 each)
+- **CUDA**: Version 12.2
+- **Driver**: NVIDIA 535.86.05
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [ ] [Set up project integrations](https://gitlab.computational-immunology.org/Arawa/liver-3d-simulations/-/settings/integrations)
-=======
-- [ ] [Set up project integrations](https://gitlab.computational-immunology.org/Arawa/3d-simulations-sinusoids/-/settings/integrations)
->>>>>>> 0086bc308dd26ff1292067eb4ad28f5dddc631ad
-=======
-- [ ] [Set up project integrations](https://gitlab.computational-immunology.org/Arawa/3d-simulations-liver/-/settings/integrations)
->>>>>>> 0054aa1ed6ee9fff3da81f5785730104b499443d
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+## Data Sources
+- **Devi et al. 2023**: CD31-labeled mouse liver sinusoids (Zenodo, restricted)
+- **Rajakaruna et al. 2020**: Evans Blue/Rhodamine-dextran labeled sinusoids (GitHub)
 
 ## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+### Segmentation
+```bash
+cd Segmentation_sinusoids
+python train.py --config config.yaml
+python infer.py --checkpoint model.pt --input data.tiff
+````
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+### Structure Processing
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+```bash
+cd Expansion_sinusoids
+python adjust_diameters.py --input network.mat --output adjusted.npz
+```
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+### Simulations
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+```bash
+cd 3D_simulations
+python run_cpm.py --params optimized_params.json
+```
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+## Dependencies
 
-## License
-For open source projects, say how it is licensed.
+* PyTorch 1.12
+* CUDA 12.2
+* scikit-optimize (for Bayesian optimization)
+* Fiji (for image stitching)
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+## References
+
+Code builds upon:
+
+* GPU-CPM framework (Sultan et al. 2023)
+* No-interaction model (Fernandez-Ruiz et al. 2016)
+
+## Contact
+
+Arawa Kolossa
+Email: [arawa@hotmail.it](mailto:arawa@hotmail.it), [arawa.kolossa@ru.nl](mailto:arawa.kolossa@ru.nl)
+Radboud University
+
+```
+
