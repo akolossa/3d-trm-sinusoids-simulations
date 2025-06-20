@@ -54,7 +54,7 @@ Key files and folders:
 
 - `dilated_eroded_sinusoids/`: Processing sinusoid morphological operations  
 - `segmentedSinusoids_Levy_walks_liver/`: Data and scripts for Levy walk analyses  
-- `vti_visualisations/`: Tools for volume rendering and visualization  
+- `vti_visualisations/`: Tools for volume rendering and visualization (optimized for paraview)
 - `change_formats/`: Scripts to convert file formats  
 - `change_diameter.ipynb`: Interactive notebook for diameter adjustment  
 - `768_volume_remove_background.py`: Background removal script for volumes  
@@ -103,18 +103,14 @@ python train.py --config config.yaml
 python inference.py --checkpoint model.pt --input data.tiff
 ````
 
-### Structure Processing
+### Structure Expansion (not working)
 
-```bash
-cd Expansion_sinusoids
-python adjust_diameters.py --input network.mat --output adjusted.npz
-```
 
 ### CPM Simulations
 
 ```bash
 cd 3D_simulations
-python run_cpm.py --params optimized_params.json
+python final_simulation128_2.py --params parameters.py
 ```
 
 ---
@@ -123,6 +119,7 @@ python run_cpm.py --params optimized_params.json
 
 * Python 3.8+
 * PyTorch 1.12
+* gpucpm (for CPM simulations)
 * CUDA 12.2
 * scikit-optimize (for Bayesian optimization)
 * Fiji/ImageJ (for image stitching and visualization)
